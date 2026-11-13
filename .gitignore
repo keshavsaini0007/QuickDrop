@@ -1,0 +1,76 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output and generated bundles
+dist/
+build/
+coverage/
+*.tsbuildinfo
+*.hbc
+*.jsbundle
+.expo-export-check/
+.eslintcache
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+
+# Expo
+.expo/
+.expo-shared/
+frontend/android/
+frontend/ios/
+frontend/web-build/
+frontend/.expo/
+frontend/dist/
+frontend/example/
+
+# Native/EAS credentials
+*.jks
+*.keystore
+*.mobileprovision
+*.provisionprofile
+*.p8
+*.p12
+*.cer
+*.csr
+google-services.json
+GoogleService-Info.plist
+credentials.json
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+tmp/
+temp/
+.cache/
+
+# Test artifacts
+coverage/
+.nyc_output/
+
+# Editors, agent tooling, and OS
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.claude/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local databases and upload staging
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.db
+*.db-*
+quickdrop.db

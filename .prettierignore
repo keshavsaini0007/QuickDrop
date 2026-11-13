@@ -1,0 +1,8 @@
+node_modules
+dist
+coverage
+.expo
+frontend/android
+frontend/ios
+package-lock.json
+PLAN.md
